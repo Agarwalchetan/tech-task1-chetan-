@@ -1,0 +1,205 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and General Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Light Gray Background */
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navigation Bar */
+  #navbar {
+    position: sticky;
+    top: 0;
+    background-color: #003366; /* Navy Blue Background */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  #navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #navbar li {
+    margin: 0 15px;
+  }
+  
+  #navbar a {
+    text-decoration: none;
+    color: #ffffff; /* White Text */
+    font-size: 1em;
+  }
+  
+  #navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background: url('https://via.placeholder.com/1600x800') ;
+    color: #181717; /* White Text */
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #003366; /* Navy Blue Background */
+    color: #ffffff; /* White Text */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .cta-button:hover {
+    background-color: #002244; /* Darker Navy Blue */
+  }
+  
+  /* About Section */
+  #about {
+    padding: 40px 20px;
+    background-color: #ffffff; /* White Background */
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #about h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #003366; /* Navy Blue Text */
+  }
+  
+  #about p {
+    color: #555; /* Dark Gray Text */
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  .about-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Testimonials Section */
+  #testimonials {
+    padding: 40px 20px;
+    background-color: #87aee7; /* Light Blue Background */
+    text-align: center;
+  }
+  
+  .testimonial {
+    margin: 20px auto;
+    max-width: 600px;
+    background: #ffffff; /* White Background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .testimonial-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #333; /* Dark Gray Text */
+  }
+  
+  /* Footer */
+  #footer {
+    padding: 20px;
+    background-color: #003366; /* Navy Blue Background */
+    color: #ffffff; /* White Text */
+    text-align: center;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+  }
+  
+  .social-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .social-links a {
+    color: #ffffff; /* White Text */
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #hero {
+      padding: 50px 10px;
+    }
+  
+    .hero-content h1 {
+      font-size: 1.8em;
+    }
+  
+    .hero-content p {
+      font-size: 1em;
+    }
+  
+    .cta-button {
+      font-size: 0.9em;
+      padding: 10px 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #hero {
+      padding: 30px 5px;
+    }
+  
+    .hero-content h1 {
+      font-size: 1.5em;
+    }
+  
+    .hero-content p {
+      font-size: 0.9em;
+    }
+  
+    .cta-button {
+      font-size: 0.8em;
+      padding: 8px 15px;
+    }
+  }
