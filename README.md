@@ -1,4 +1,4 @@
-# tech-task2-chetan-
+# tech-task1-chetan-
 StartupSphere by Chetan
 Welcome to the StartupSphere by Chetan project! This is a modern, responsive website designed to showcase and promote StartupSphere's mission and initiatives.
 
